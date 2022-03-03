@@ -16,6 +16,8 @@
 		1ACA3CEF27D106F200DDF954 /* BindingMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3CEE27D106F200DDF954 /* BindingMVVMTests.swift */; };
 		1ACA3CF927D106F200DDF954 /* BindingMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3CF827D106F200DDF954 /* BindingMVVMUITests.swift */; };
 		1ACA3CFB27D106F200DDF954 /* BindingMVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3CFA27D106F200DDF954 /* BindingMVVMUITestsLaunchTests.swift */; };
+		1ACA3D0927D111D000DDF954 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3D0827D111D000DDF954 /* LoginViewModel.swift */; };
+		1ACA3D0C27D1124600DDF954 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA3D0B27D1124600DDF954 /* BindingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1ACA3CF427D106F200DDF954 /* BindingMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BindingMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACA3CF827D106F200DDF954 /* BindingMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMVVMUITests.swift; sourceTree = "<group>"; };
 		1ACA3CFA27D106F200DDF954 /* BindingMVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ACA3D0827D111D000DDF954 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1ACA3D0B27D1124600DDF954 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		1ACA3CD627D106EF00DDF954 /* BindingMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				1ACA3D0A27D1122600DDF954 /* CustomViews */,
+				1ACA3D0727D111B700DDF954 /* ViewModels */,
 				1ACA3CD727D106EF00DDF954 /* AppDelegate.swift */,
 				1ACA3CD927D106EF00DDF954 /* SceneDelegate.swift */,
 				1ACA3CDB27D106EF00DDF954 /* ViewController.swift */,
@@ -125,6 +131,22 @@
 				1ACA3CFA27D106F200DDF954 /* BindingMVVMUITestsLaunchTests.swift */,
 			);
 			path = BindingMVVMUITests;
+			sourceTree = "<group>";
+		};
+		1ACA3D0727D111B700DDF954 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA3D0827D111D000DDF954 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1ACA3D0A27D1122600DDF954 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA3D0B27D1124600DDF954 /* BindingTextField.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ACA3D0927D111D000DDF954 /* LoginViewModel.swift in Sources */,
 				1ACA3CDC27D106EF00DDF954 /* ViewController.swift in Sources */,
+				1ACA3D0C27D1124600DDF954 /* BindingTextField.swift in Sources */,
 				1ACA3CD827D106EF00DDF954 /* AppDelegate.swift in Sources */,
 				1ACA3CDA27D106EF00DDF954 /* SceneDelegate.swift in Sources */,
 			);
